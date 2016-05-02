@@ -16,5 +16,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void HelloBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello world of Git");
+        }
     }
 }
